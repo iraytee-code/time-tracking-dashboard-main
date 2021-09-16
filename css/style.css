@@ -1,12 +1,16 @@
+/* global styling starts here..... */
 html {
     font-size: 62.5%;
     box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
 }
 
 *, *:after, *:before {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
+    font-family: 'Rubik', sans-serif;
+    font-weight: normal;
 }
 body{
     display: flex;
@@ -19,11 +23,10 @@ body{
 }
 
 main{
-    background: red;
+    /* background: red; */
     box-sizing: border-box;
     width: 900px;
     color: #ffffff;
-    padding: 1rem;
 }
 
 .dashboard{
@@ -31,31 +34,154 @@ main{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+/* global styling ends here....... */
 
+/* dashboard area styling starts here............... */
 .header{
     box-sizing: border-box;
-    background: black;
     border-radius: 10px;
+    background: #1d204b;
+    flex: 1;
+    margin: 1%;
 }
 
 .header_info{
     box-sizing: border-box;
-    background: grey;
+    background: #5746ea;
     border-radius: 10px;
-    width: 250px;
+    width: 100%;
     height: auto;
     padding: 20px;
 }
 
+.header_info h4{
+    box-sizing: border-box;
+    padding-top:25px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.header_info h1{
+    box-sizing: border-box;
+    font-size: 30px;
+}
 .picture_card{
     box-sizing: border-box;
     border-radius: 50%;
-    width: 100px;
-    height: auto;
-    border: solid #ffffff 0;
+    width: 98px;
+    height: 98px;
+    border: solid #ffffff 4px;
 }
 
 .picture_card img{
     width: 100%;
     height: 100%;
 }
+
+nav{
+    box-sizing: border-box;
+    background:#1d204b;
+    border-radius: 0px 0px 10px 10px;
+    padding: 20px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    padding: 10px 0;
+    font-size: 12px;
+    color: #6F76CB;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav ul li:hover{
+    color: #ffffff;
+}
+
+/* dashboard area styling ends here............... */
+
+/* infographic area styling starts here........... */
+
+.main-info{
+    /* background: black; */
+    flex: 3;
+    /* margin: 1%; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.work-card, .play-card, .study-card, .exercise-card, .social-card, .self-care-card{
+    box-sizing: border-box;
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+/* card background images */
+.work-card{
+    background: url(../images/icon-work.svg);
+    background-color: coral;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-position: 90% -10%;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.play-card{
+    background: url(../images/icon-play.svg);
+    background-color: cyan;
+    background-repeat: no-repeat;
+    background-position: 90% -10%;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.study-card{
+    background: url(../images/icon-study.svg);
+    background-color: #ff5e7d;
+    background-repeat: no-repeat;
+    background-position: 90% -10%;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.exercise-card{
+    background: url(../images/icon-exercise.svg);
+    background-color: #4bcf83;
+    background-repeat: no-repeat;
+    background-position: 90% -10%;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.social-card{
+    background: url(../images/icon-social.svg);
+    background-color:#7235d1;
+    background-repeat: no-repeat;
+    background-position: 90% -10%;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.self-care-card{
+    background: url(../images/icon-self-care.svg);
+    background-color: #f1c75b;
+    background-repeat: no-repeat;
+    background-position: 90% -10%;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+/* card background images */
+
+
+
