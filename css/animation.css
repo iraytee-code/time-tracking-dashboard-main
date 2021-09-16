@@ -1,15 +1,78 @@
-/* .work-card .card:hover,
+.work-card .card:hover,
  .play-card .card:hover, 
  .study-card .card:hover, 
  .exercise-card .card:hover,
   .social-card .card:hover, 
-  .self-care-card :hover{
+  .self-care-card .card:hover{
     background: #34397b;
-    transition: ease-in 0.5s;
-}  */
+    
+   
+} 
+
 
 .work-card:hover{
-    width: 31%;
-    height: auto;
+    background: url(../images/icon-work.svg);
+    background-color: coral;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-position: 90% -10%;
+    cursor: pointer;
     overflow: hidden;
+    transform: scale(1.05);
+    transition: ease-in 0.3s;
+}
+
+.play-card:hover{
+    background: url(../images/icon-play.svg);
+    background-color: cyan;
+    background-repeat: no-repeat;
+    background-position: 90% -10%;
+    cursor: pointer;
+    overflow: hidden;
+    transform: scale(1.05);
+    transition: ease-in 0.3s;
+}
+
+.study-card:hover{
+    background: url(../images/icon-study.svg);
+    background-color: #ff5e7d;
+    background-repeat: no-repeat;
+    background-position: 90% -10%;
+    cursor: pointer;
+    overflow: hidden;
+    transform: scale(1.05);
+    transition: ease-in 0.3s;
+}
+
+.exercise-card:hover{
+    background: url(../images/icon-exercise.svg);
+    background-color: #4bcf83;
+    background-repeat: no-repeat;
+    background-position: 90% -10%;
+    cursor: pointer;
+    overflow: hidden;
+    transform: scale(1.05);
+    transition: ease-in 0.3s;
+}
+
+.social-card:hover{
+    background: url(../images/icon-social.svg);
+    background-color:#7235d1;
+    background-repeat: no-repeat;
+    background-position: 90% -10%;
+    cursor: pointer;
+    overflow: hidden;
+    transform: scale(1.05);
+    transition: ease-in 0.3s;
+}
+
+.self-care-card:hover{
+    background: url(../images/icon-self-care.svg);
+    background-color: #f1c75b;
+    background-repeat: no-repeat;
+    background-position: 90% -10%;
+    cursor: pointer;
+    overflow: hidden;
+    transform: scale(1.05);
+    transition: ease-in 0.3s;
 }
