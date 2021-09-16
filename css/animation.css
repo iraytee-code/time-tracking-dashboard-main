@@ -1,0 +1,15 @@
+/* .work-card .card:hover,
+ .play-card .card:hover, 
+ .study-card .card:hover, 
+ .exercise-card .card:hover,
+  .social-card .card:hover, 
+  .self-care-card :hover{
+    background: #34397b;
+    transition: ease-in 0.5s;
+}  */
+
+.work-card:hover{
+    width: 31%;
+    height: auto;
+    overflow: hidden;
+}

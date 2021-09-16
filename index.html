@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/animation.css">
   <title>Frontend Mentor | Time tracking dashboard</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -24,11 +25,15 @@
       <div class="dashboard">
         <div class="header">
           <div class="header_info">
-            <div class="picture_card">
-              <img src="./images/image-jeremy.png" alt="">
+            <div class="picture">
+              <div class="picture_card">
+                <img src="./images/image-jeremy.png" alt="">
+              </div>
             </div>
-            <h4>Report for</h4>
-            <h1>Jeremy Robson</h1>
+            <div class="header-text">
+              <h4>Report for</h4>
+              <h1>Jeremy Robson</h1>
+            </div>
           </div>
           <nav>
             <ul>
@@ -40,58 +45,46 @@
         </div>
         <div class="main-info">
           <div class="work-card">
-            Work
-            5hrs <!-- daily -->
-            Previous - 7hrs <!-- daily -->
-            32hrs <!-- weekly -->
-            Previous - 36hrs <!-- weekly -->
-            103hrs <!-- monthly -->
-            Previous - 128hrs <!-- monthly -->
+            <div class="card">
+              <h1>Work <span></span> ... </h1>
+              <p class="time">5hrs <!-- daily --></p>
+              <p class="previous">Previous - 7hrs <!-- daily --></p> 
+            </div>
           </div>
           <div class="play-card">
-            Play
-            1hr <!-- daily -->
-            Previous - 2hrs <!-- daily -->
-            10hrs <!-- weekly -->
-            Previous - 8hrs <!-- weekly -->
-            23hrs <!-- monthly -->
-            Previous - 29hrs <!-- monthly -->
+            <div class="card">
+              <h1>Play<span></span> ... </h1>
+              <p class="time">1hr <!-- daily --></p>
+              <p class="previous">Previous - 2hrs <!-- daily --></p>
+            </div>
           </div>
           <div class="study-card">
-            Study
-            0hrs <!-- daily -->
-            Previous - 1hr <!-- daily -->
-            4hrs <!-- weekly -->
-            Previous - 7hrs <!-- weekly -->
-            13hrs <!-- monthly -->
-            Previous - 19hrs <!-- monthly -->
+            <div class="card">
+              <h1>Study<span></span> ... </h1>
+              <p class="time">0hrs <!-- daily --></p>
+              <p class="previous">Previous - 1hr <!-- daily --></p>
+            </div>
           </div>
           <div class="exercise-card">
-            Exercise
-            1hr <!-- daily -->
-            Previous - 1hr <!-- daily -->
-            4hrs <!-- weekly -->
-            Previous - 5hrs <!-- weekly -->
-            11hrs <!-- monthly -->
-            Previous - 18hrs <!-- monthly -->  
+            <div class="card">
+              <h1>Exercise<span></span> ... </h1>
+              <p class="time">1hr <!-- daily --></p>
+              <p class="previous">Previous - 1hr <!-- daily --> </p>
+            </div>
           </div>
           <div class="social-card">
-            Social
-            1hr <!-- daily -->
-            Previous - 3hrs <!-- daily -->
-            5hrs <!-- weekly -->
-            Previous - 10hrs <!-- weekly -->
-            21hrs <!-- monthly -->
-            Previous - 23hrs <!-- monthly -->   
+            <div class="card">
+              <h1>Social<span></span> ... </h1>
+              <p class="time">1hr <!-- daily --></p>
+              <p class="previous">Previous - 3hrs <!-- daily --></p>
+            </div> 
           </div>
           <div class="self-care-card">
-            Self Care
-            0hrs <!-- daily -->
-            Previous - 1hr <!-- daily -->
-            2hrs <!-- weekly -->
-            Previous - 2hrs <!-- weekly -->
-            7hrs <!-- monthly -->
-            Previous - 11hrs <!-- monthly -->  
+            <div class="card">
+              <h1>Self Care<span></span>...</h1>
+              <p class="time">0hrs <!-- daily --></p>
+              <p class="previous">Previous - 1hr <!-- daily --> </p>
+            </div>
           </div> 
         </div>
       </div>
@@ -103,3 +96,4 @@
   </div> -->
 </body>
 </html>
+

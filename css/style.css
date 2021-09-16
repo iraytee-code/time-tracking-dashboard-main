@@ -25,7 +25,7 @@ body{
 main{
     /* background: red; */
     box-sizing: border-box;
-    width: 900px;
+    width: 70%;
     color: #ffffff;
 }
 
@@ -43,6 +43,7 @@ main{
     background: #1d204b;
     flex: 1;
     margin: 1%;
+
 }
 
 .header_info{
@@ -54,9 +55,13 @@ main{
     padding: 20px;
 }
 
+.header-text{
+    box-sizing: border-box;
+    padding: 20px 10px;
+}
+
 .header_info h4{
     box-sizing: border-box;
-    padding-top:25px;
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 0;
@@ -68,12 +73,19 @@ main{
     box-sizing: border-box;
     font-size: 30px;
 }
+
+.picture{
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
 .picture_card{
     box-sizing: border-box;
     border-radius: 50%;
     width: 98px;
     height: 98px;
     border: solid #ffffff 4px;
+    
 }
 
 .picture_card img{
@@ -123,7 +135,12 @@ nav ul li:hover{
     margin: 10px;
     border-radius: 10px;
     position: relative;
+    min-height: 250px;
+    max-height: 300px;
 }
+
+
+
 
 /* card background images */
 .work-card{
@@ -183,5 +200,39 @@ nav ul li:hover{
 
 /* card background images */
 
+/* main info card */
+
+.card{
+    position: absolute;
+    background: #1d204b;
+    top: 40px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card h1{
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.card h1 span{
+    box-sizing: border-box;
+    padding: 0 50px;
+}
+
+.card .time{
+    font-size: 50px;
+    padding: 0;
+}
+
+.card .previous{
+    font-size: 18px;
+    color: #bdc1ff;
+    box-sizing: border-box;
+    padding-top: 30px;
+}
 
 
